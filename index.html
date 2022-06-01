@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Tic-Tac-Toe</title>
+</head>
+<body class="bootstrap">
+    <div id="alert-div"></div>
+
+    <div class="row jusify-content-center">
+        <div class="col">
+            <h3 class="text-center">X's turn</h3>
+            <div class="ttt-container">
+                <div class="ttt-row">
+                    <div class="ttt-box"><div class="xo"></div></div>
+                    <div class="ttt-box"><div class="xo"></div></div>
+                    <div class="ttt-box"><div class="xo"></div></div>
+                </div>
+                <div class="ttt-row">
+                    <div class="ttt-box"><div class="xo"></div></div>
+                    <div class="ttt-box"><div class="xo"></div></div>
+                    <div class="ttt-box"><div class="xo"></div></div>
+                </div>
+                <div class="ttt-row">
+                    <div class="ttt-box"><div class="xo"></div></div>
+                    <div class="ttt-box"><div class="xo"></div></div>
+                    <div class="ttt-box"><div class="xo"></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="btn btn-primary reset-button" onclick="gameReset()">Reset</button>
+    
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/@popperjs/core/dist/cjs/popper-lite.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="src/script.js"></script>
+</body>
+</html>
